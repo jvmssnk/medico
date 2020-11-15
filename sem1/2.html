@@ -1,0 +1,116 @@
+<html>
+<head>
+<style>
+*{
+box-sizing: border-box;
+}
+body
+{
+
+background-image:url("rr.jpg");
+background-size: 1600px 800px;
+background-position: right top;
+background-repeat: no-repeat;
+}
+form
+{
+border: 20px ;
+border-width: 50%;
+}
+input[type=text],input[type=password],input[type=number]
+{
+width: 100%;
+padding: 15px 25px;
+display: inline-block;
+border: none;
+border-bottom: 6px solid darkSlateGray;
+box-sizing:border-box;
+opacity:0.6;
+}
+button
+{
+background-color: ORANGERED;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+BORDER-RADIUS: 25PX;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+width: 45%;
+opacity:1;
+}
+button:hover
+{
+opacity: 0.5;
+}
+div
+{
+margin: auto;
+border: 2px solid WHITE ;
+padding: 5px;
+width: 25%;
+position: absolute;
+left: 0px;
+top: 0px;
+}
+div1
+{
+margin: auto;
+border: 2px solid WHITE;
+padding: 5px;
+width: 25%;
+position: absolute;
+right:1120px;
+top: 60px;
+}
+div3
+{
+margin: auto;
+border: 8px solid  darkSlateGray  ;
+padding: 15px 15px 15px 15px;
+width: 50%;
+position: absolute;
+right: 25px;
+top: 15px;
+color: white ;
+}
+
+
+</style>
+</head>
+<body>
+<div1>
+<h1 style="color:white;text-align:center ;margin-top:10px;text-transform:uppercase;"><b><i>login FORM</i></b></h1>
+<form name="myForm" action="" onsubmit="return validateForm()">
+<h3 style="color:white;text-align:left;position:relative;margin-left: 20px;"><label for="email"><b><i>email</b></i></label><br><br>
+<center><input type="text" id="huname" name="firstname" placeholder="enter your mail"></center>
+<h3 style="color:white;text-align:left;position:relative;margin-left: 20px;"><label for="password"><b><i>password</b></i></label><br><br>
+<center><input type="password" id="huname" name="pname" placeholder="enter your password"></center>
+<BR><label>
+<input type="checkbox"  name="remember"> Remember me</label><BR><BR>
+<a href="r.html" target="_blank" style="color: deeppink; position: absolute; top:175px;text-decoration: none;">Regester?</a>
+
+<center><button type="submit"  formaction="KAPARDHI.HTML">LOGIN</button><center>
+
+</form>
+</div1>
+<script>
+function validateForm() {
+var x = document.forms["myForm"]["firstname"].value;
+var y = document.forms["myForm"]["pname"].value;
+      if (x == "") {
+    alert("Email must be filled out");
+    document.forms["myForm"]["firstname"].focus();
+    return false;
+  }
+      if (y == "") {
+    alert("password must be filled out");
+    document.forms["myForm"]["pname"].focus();
+    return false;
+    }
+}
+</script>
+</body>
+</html>

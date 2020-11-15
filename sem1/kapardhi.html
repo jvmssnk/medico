@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div20
+{
+margin: auto;
+
+padding: 5px;
+position: absolute;
+left: 25px;
+top: 7px;
+
+}
+div1
+{
+padding: 5px;
+position: absolute;
+left: 485px;
+top: 43px;
+
+}
+div2
+{
+padding: 5px;
+position: absolute;
+left: 600px;
+top: 30px;
+}
+div3
+{
+padding: 5px;
+position: absolute;
+left: 720px;
+top: 30px;
+}
+div4
+{
+padding: 5px;
+position: absolute;
+left: 900px;
+top: 30px;
+}
+div5
+{
+padding: 5px;
+position: absolute;
+left: 1010px;
+top: 30px;
+}
+div6
+{
+padding: 5px;
+position: absolute;
+left: 1120px;
+top: 30px;
+}
+div7
+{
+padding: 5px;
+position: absolute;
+left: 1190px;
+top: 42px;
+}
+div13
+{
+padding: 5px;
+position: absolute;
+left: 1300px;
+top: 42px;
+}
+div8
+{
+position: absolute;
+left: 185px;
+top: 3px;
+}
+div9
+{
+color: navy;
+font-size: 50px;
+}
+div10
+{
+color: darkturquoise;
+font-size: 35px;
+}
+div11
+{
+position: absolute;
+left: 1280px;
+top: 20px;
+}
+div40{
+position:absolute;
+left:30px;
+top:1000px;
+}
+div41{
+position:absolute;
+left:430px;
+top:1000px;
+}
+div42{
+position:absolute;
+left:830px;
+top:1000px;
+}
+div43{
+position:absolute;
+left:1200px;
+top:1000px;
+}
+div44{
+position:absolute;
+left:30px;
+top:1500px;
+}
+div45{
+position:absolute;
+left:430px;
+top:1500px;
+}
+div46{
+position:absolute;
+left:830px;
+top:1500px;
+}
+div47{
+position:absolute;
+left:1200px;
+top:1500px;
+}
+.btn {
+  border: none;
+  color: black;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.b1 {background-color: white;} 
+.b1:hover {background-color: black;color: white;}
+  .btn1 {
+  border: none;
+  color: orangered;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.b2 {background-color: white;} 
+.b2:hover {background-color:orangered;color: white;
+}
+  .btn2 {
+  border: none;
+  color:	deepskyblue;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.b3 {background-color: white;} 
+.b3:hover {background-color:	deepskyblue;color: white;
+}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+
+.slideshow-container {
+  max-width: 800px;
+  position: absolute;
+  left: 270px;
+  top: 85px;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 850px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.dropbtn {
+  background-color: darkslategray;
+  color: white;
+  padding: 2px 30px 2px 30px;
+  font-size: 10px;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 10px;
+  width: 5%;
+  background-color: white;
+  border-radius: 15px;
+  min-width: 130px;
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 3px 5px 3px ;
+ font-size: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: darkred;color:white; width: 80%;border-radius: 5px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: darkred;}
+div30
+{
+position: absolute;
+top: 142px;
+left: 35px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {background-color:darkred;
+  color:white;
+  opacity: 1;
+border-radius: 10px;
+
+}
+
+</style>
+</head>
+<body>
+<div20><img src="medico.jpg" style="width: 140px; height:120px; border-radius: 100px;"></div20>
+<div8><P><div9>Medico.com</div9><br><div10>Know more.Be sure</div10></P></div8>
+<div1><a href="r.html" target="_blank" class="btn b1">Drugs A-Z</a></div1>
+<div2><button class="btn b1">Pill Identifier</button></div2>
+<div3><button class="btn b1">Interactons Checker</button></div3>
+<div4><button class="btn b1">New Drugs</button></div4>
+<div5><button class="btn b1">Pro Edition</button></div5>
+<div6><button class="btn b1">More</button></div6>
+<div7><a href="r.html" target="_blank" class="btn1 b2"><b>Register</b></a></div7>
+<div13><a href="2.html" target="_blank" class="btn2 b3"><b>Sign in</b></a></div13>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<div class="numbertext">1 / 3</div>
+<img src="m1.jpg" style="width:1000px;height:550px;margin-top:200px;align: center;">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="m2.jpg" style="width:1000px;height:550px;margin-top:200px;align: center;">
+  
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">3 / 3</div>
+<img src="m3.jpg" style="width:1000px;height:500px;margin-top:200px;align: center;">
+</div>
+<div class="mySlides fade">
+<div class="numbertext"07:10 30-05-2020>3 / 3</div>
+<img src="medico.jpg" style="width:1000px;height:500px;margin-top:200px;align: center,border-radius:450px;">
+</div>
+</div>
+<br>
+<div style="text-align:center">
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+</div>
+<div30>
+<div class="dropdown">
+  <button class="dropbtn"><h2>Blood Presure(BP)</h2></button>
+  <div class="dropdown-content">
+    <a href="telm.html">Telmekind 20</a>
+    <a href="#">Telmekind 40</a>
+    <a href="#">Telmekind 80</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"><h2>Diabetics(sugar)</h2></button>
+  <div class="dropdown-content">
+    <a href="gly.html">Gemer 1</a>
+    <a href="#">Gemer 2</a>
+    <a href="#">Gemer 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"><h2>Antibiotics</h2></button>
+  <div class="dropdown-content">
+    <a href="calvam.html">calvam</a>
+    <a href="#">Moxikind CV 625</a>
+    <a href="#">Cefixime 200</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"><h2>Painkillers</h2></button>
+  <div class="dropdown-content">
+    <a href="dolokind.html">dolokind</a>
+    <a href="#">Movex Plus</a>
+    <a href="#">Nimos MD</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"><h2>Cholestrol</h2></button>
+  <div class="dropdown-content">
+    <a href="mahacef.html">mahacef</a>
+    <a href="#">mahacef 100</a>
+    <a href="#">mahacef 200</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"><h2>Fever& Cough & Cold</h2></button>
+  <div class="dropdown-content">
+    <a  href="templet.html">DOLO 650</a>
+    <a href="https://www.practo.com/medicine-info/paracetamol-650-mg-tablet-8727" target="_blank">Paracitmal 650</a>
+    <a href="https://www.medicines.org.uk/emc/product/5164/pil" target="_blank">Paracitmal 500</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><h2>Multivitamin tablets</h2></button>
+  <div class="dropdown-content">
+    <a href="zinc.html">zincovit</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><h2>Ear&Eye DropsS</h2></button>
+  <div class="dropdown-content">
+    <a href="dex.html">dexarange</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+</div30>
+<div40>
+<h2 style="text-align:center">DOLO 650</h2>
+<div class="card">
+  <img src="g2.jpg" alt="John" style="width:100%">
+  <h1>DOLO 650</h1>
+  <p class="title">Dolo 650 Tablet is a medicine used to relieve pain and to reduce fever. It is used to treat many conditions such as headache, body ache</p>
+ 
+  <p><button><a href="templet.html" style="color: white";>for more details</a></button></p>
+</div>
+</div40>
+<div41>
+<h2 style="text-align:center">Betadine</h2>
+<div class="card">
+<img src="bet4.jpg" alt="John" style="width:100%">
+<h1>Betadine</h1>
+<p class="title">Betadine 10% Solution is an antiseptic and disinfectant agent. It is used for prevention of infections in wounds and cuts. </p>
+<p><button><a href="bata.html" style="color: white";>for more details</a></button></p>
+</div>
+</div41>
+<div42>
+<h2 style="text-align:center">Dexarange</h2>
+<div class="card">
+<img src="dex2.jpg" alt="John" style="width:100%">
+<h1>Dexarange</h1>
+<p class="title">The Dexorange Syrup is an oral supplement comprising of vitamins and minerals that is useful in treating anemia caused due to loss of blood. </p>
+
+
+  <p><button><a href="dex.html" style="color: white";>for more details</a></button></p>
+</div>
+</div42>
+<div43>
+<h2 style="text-align:center">Pantop-D</h2>
+<div class="card">
+<img src="pan3.jpg" alt="John" style="width:100%">
+<h1>Pantop-D</h1>
+<p class="title">Pantop-D Capsule is a combination medicine used in the treatment of gastroesophageal reflux disease (GERD) for patients </p>
+
+  <p><button><a href="pantop.html" style="color: white";>for more details</a></button></p>
+</div>
+</div43>
+<div44>
+<h2 style="text-align:center">Mahacef</h2>
+<div class="card">
+<img src="mah2.jpg" alt="John" style="width:100%">
+<h1>Mahacef</h1>
+<p class="title">Mahacef 200 Tablet is an antibiotic belonging to the cephalosporin group, which is used to treat a variety of bacterial infections. </p>
+
+ 
+  <p><button><a href="mahacef.html" style="color: white";>for more details</a></button></p>
+</div>
+</div44>
+<div45>
+<h2 style="text-align:center">Glycomet</h2>
+<div class="card">
+<img src="gly4.jpg" alt="John" style="width:100%">
+<h1>Glycomet</h1>
+<p class="title">Glycomet 500 MG Tablet is an effective first choice medicine used to control high blood glucose levels in patients with type II diabetes.</p>
+  
+
+  <p><button><a href="gly.html" style="color: white";>for more details</a></button></p>
+</div>
+</div45>
+<div46>
+<h2 style="text-align:center">Coldact</h2>
+<div class="card">
+<img src="co1.jpg" alt="John" style="width:100%">
+<h1>Coldact</h1>
+<p class="title">Coldact Capsule is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat.</p>
+
+  <p><button><a href="cold.html" style="color: white";>for more details</a></button></p>
+</div>
+</div46>
+<div47>
+<h2 style="text-align:center">Zincovit</h2>
+<div class="card">
+<img src="zic4.jpg" alt="John" style="width:100%">
+<h1>Zincovit</h1>
+<p class="title">Zincovit:is primarily used for the treatment of vitamin and mineral deficiency.Available in many different forms, zinc supplements are often used to treat an array of ailments </p>
+
+  <p><button><a href="zinc.html" style="color: white";>for more details</a></button></p>
+</div>
+</div47>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 1000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

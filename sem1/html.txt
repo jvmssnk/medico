@@ -1,0 +1,329 @@
+﻿<html> 
+<head>
+<style>
+div{
+border-style: solid;
+border-color: darkolivegreen ;
+border-width: 15px;
+background-color: darkred;
+background-repeat: no-repeat;
+height: 150px;
+text-align: CENTER;
+padding-top: 50px;
+margin-left: 13%;
+padding-left: 10px;
+padding-right: 10px;
+color: white;
+}
+DIV9{
+BORDER-STYLE:SOLID;
+BORDER-COLOR: DARKOLIVEGREEN;
+BORDER-WIDTH: 15PX;
+BACKGROUND-COLOR:DARKRED;
+BACKGROUND-REPEAT:NO-REPEATE;
+HEIGHT: 150PX;
+TEXT-ALIGN: LEFT;
+
+
+PADDING-LEFT: 10PX;
+MARGIN-LEFT: 13%;
+
+
+PADDING-RIGHT:10PX;
+COLOR: WHITE;
+}
+img
+{
+border-style: solid;
+border-color: darkolivegreen;
+border-width: 15px;
+
+
+float: left;
+}
+DIV2
+{
+FONT-SIZE: 40PX;
+border-style: SOLID;
+BORDER-RADIUS: 10PX;
+border-width: 5px;
+border-color: darkolivegreen;
+position: relative;
+left : 250px;
+
+
+COLOR: WHITE;
+BACKGROUND-COLOR: DARKRED;
+}
+DIV26
+{
+FONT-SIZE: 40PX;
+border-style: SOLID;
+BORDER-RADIUS: 10PX;
+border-width: 5px;
+border-color: darkolivegreen;
+position: relative;
+left : 250px;
+
+
+COLOR: WHITE;
+BACKGROUND-COLOR: DARKRED;
+}
+DIV3
+{
+FONT-SIZE: 40PX;
+border-style: SOLID;
+border-width: 5px;
+BORDER-RADIUS: 10PX;
+border-color: darkolivegreen;
+position: relative;
+LEFT : 500px;
+COLOR: WHITE;
+BACKGROUND-COLOR: DARKRED;
+}
+DIV23
+{
+FONT-SIZE: 40PX;
+border-style: SOLID;
+border-width: 5px;
+BORDER-RADIUS: 10PX;
+border-color: darkolivegreen;
+position: relative;
+LEFT : 630px;
+COLOR: WHITE;
+BACKGROUND-COLOR: DARKRED;
+}
+DIV5
+{
+FONT-SIZE: 20PX;
+border-style: SOLID;
+border-width: 5px;
+BORDER-RADIUS: 10PX;
+border-color: TEAL;
+position: relative;
+LEFT : 10px;
+COLOR: WHITE;
+BACKGROUND-COLOR: ORANGERED;
+}
+ul.a
+{
+FONT-SIZE: 20PX;
+list-style-type: disc;
+LIST-STYLE-POSITION: OUTSIDE;
+position: relative;
+left: 225px;
+}
+ul.c
+{
+FONT-SIZE: 20PX;
+list-style-type: disc;
+LIST-STYLE-POSITION: OUTSIDE;
+position: relative;
+left: 220px;
+bottom: 240px;
+color:midnightblue;
+}
+ul.b
+{
+FONT-SIZE: 20PX;
+list-style-type: disc;
+LIST-STYLE-POSITION: OUTSIDE;
+position: relative;
+left: 770px;
+bottom: 130px;
+}
+ul.d
+{
+FONT-SIZE: 20PX;
+list-style-type: disc;
+LIST-STYLE-POSITION: OUTSIDE;
+position: relative;
+left: 800px;
+TOP: 12px;
+}
+div1
+{
+BORDER-STYLE: SOLID;
+BORDER-COLOR:teal ; 
+BORDER-WIDTH:5PX;
+position: relative;
+left : 5px;
+COLOR: WHITE;
+BACKGROUND-COLOR: orangered;
+FONT-SIZE: 18PX;
+BORDER-RADIUS:6PX;
+COLOR:white;
+}
+div20
+{
+BORDER-STYLE: SOLID;
+BORDER-COLOR:teal ; 
+BORDER-WIDTH:5PX;
+position: relative;
+left : 5px;
+margin-bottom : 40px;
+COLOR: WHITE;
+BACKGROUND-COLOR: orangered;
+FONT-SIZE: 21PX;
+BORDER-RADIUS:6PX;
+COLOR:white;
+}
+div7
+{
+border-width: 5px;
+border-style: solid;
+border-color: green;
+background-color: red;
+color: white;
+position: relative;
+left: 10px;
+top: 40px;
+margin-left: 10px;
+}
+hr.new{ 
+   margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+border-color: orangered;
+ border-style: solid;
+ border-width: 7px;
+}
+hr.new1{ 
+   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+border-color: dimgray;
+ border-style: solid;
+ border-width: 7px;
+}
+div22
+{
+border-color: black;
+border-width: 5px;
+border-style: solid;
+}
+p.container {
+  width: 100%;
+  background-color: PINK;
+}
+.skills {
+  text-align: right;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: WHITE;
+}
+p.COM {width: 75%; background-color: RED ;}
+p.TEM {width: 94%; background-color: DARKRED;}
+p.ORG {width: 65%; background-color: OLIVE;}
+p.TIM {width: 100%; background-color: TEAL;}
+p.COD {width: 89%; background-color: DIMGRAY;}
+p.IT {width: 83%; background-color: INDIGO;}
+</style>
+</head>
+<body>
+<p><img src="https://rlv.zcache.com/you_are_the_css_to_my_html_poster-r45fa5bb994c84ceca6b1e93cae5d632c_js8_8byvr_307.jpg"style="width:200px; height:200px;"></p>
+<div>
+<h1><i>KAPARDHI JOSYULA ...         (Web Designer)</i></h1>
+<p><i>“If future generations are to remember us more with gratitude than sorrow, we must achieve more than just the miracles of technology. We must also leave them a glimpse of the world as it was created, not just as it looked when we got through with it.”</i></p>
+</div>
+<hr size="14"  width="1500" color="dimgray">
+<DIV2><I>PERSONAL INFO</I></DIV2>
+<DIV3><I>EDUCATION  INFO </I></DIV3>
+<ul class="a">
+<li><b><i>Nationality     :           India</i></b></LI>
+<li><b><i>Address            :           las vegas;vizag,india.</i></b></li>
+<li><b><i>Cell Phone      :           9666626056. </i></b></li>
+<li><b><i>Email address:           josyula.kapardhi@gmail.com</i></b></li>
+<li><b><i>Pincode:56000325.</i></b></li></ul>
+<ul class="b">
+<li><b><i>UNIVERSITY (2019-2023): 1.Amrita school of engneering</i></b></li>
+ <li><b><i>present [2024]:masters in Artificial Intelligence(Stanford University)<br><u>COURSES:</u><BR>1.Deep learning<br>2.natural language processing</i></b></li>
+</ul>
+<hr class="new">
+<div26>..SKILLS..
+</div26>
+<DIV23>
+..INTRESTS..</DIV23>
+<UL CLASS="D">
+<LI><I><DIV5> THE BUSSINES UPDATES</DIV5></I></LI>
+</UL>
+<UL CLASS="D">
+<LI><I><DIV5> HOW BUSSINES WORKS</DIV5></I></LI>
+</UL>
+<ul CLASS="d">
+<LI><I><DIV5> ECONOMY OF COUNTRIES</DIV5></I></LI>
+</UL>
+<ul CLASS="d">
+<LI><I><DIV5> READING BOOKS ON BUSSINES</DIV5></I></LI>
+</UL>
+<ul CLASS="d">
+<LI><I><DIV5> INSPIRING STORIES</DIV5></I></LI>
+</UL>
+<ul CLASS="d">
+<LI><I><DIV5> HELPING OTHERS</DIV5></I></LI></UL>
+
+
+
+
+
+
+<ul class="c">
+<LI><DIV20>communication skills</DIV20></LI>
+</ul>
+<ul class="c">
+<LI><DIV20>team work</DIV20></LI>
+</ul>
+<ul class="c">
+<LI><DIV20>organization skills</DIV20></LI>
+</ul>
+<ul class="c">
+<LI><DIV20>time management</DIV20></LI>
+</ul>
+<ul class="c">
+<LI><DIV20>coding skills</DIV20></LI>
+</ul>
+<ul class="c">
+<LI><div20>I t skills</div20></LI>
+</UL>
+<hr class="new1">
+<div26>WORK EXPERIENCE
+</div26>
+<br>
+<br><br>
+<div><ul><li>Fundamentals of design imaging as a leader of team(GOOGLE)</li>
+<li>Basic web design as a cheif excecutive officer of  teams(APPLE)</li>
+<li>Animation as a team member (DISENY) </li>
+<LI>Multimedia design testing manager (AMAZON)</LI>
+<LI>Content management as the supervising the content of teams(IBM)</li>
+<li>Editing for video and audio(MICROSOFT)</li>
+<LI>Multimedia programming and technology(BIDU)</LI></ul></div>
+<br><br><br>
+<div2>GRAPHS OF SKILLS</DIV2>
+<br><br><br>
+<p><DIV20>communication skills</DIV20</p>
+<p class="container">
+  <p class="skills COM">75%</p>
+</p>
+<p><DIV20>team work</DIV20></p>
+<p class="container">
+  <p class="skills TEM">94%</p>
+<p>
+<p><DIV20>organization skills</DIV20></p>
+<p class="container">
+  <p class="skills ORG">65%</p>
+</p>
+<p><DIV20>time management</DIV20></p>
+<p class="container">
+  <p class="skills TIM">100%</p>
+</p>
+<p><DIV20>coding skills</DIV20></p>
+<p class="container">
+  <p class="skills COD">89%</p>
+</p>
+<p><div20>I t skills</div20></p>
+<p class="container">
+  <p class="skills IT">83%</p>
+</p>
+</body>
+</html>
